@@ -3,8 +3,6 @@ BoneAnimation
 
 C# skeletal animation library and editor.
 
-![Screenshot](https://github.com/krzat/BoneAnimation/blob/master/photo.png?raw=true)
-
 Features:
 * multiple skins per bone
 * animation layering, blending and interpolating
@@ -14,6 +12,10 @@ Features:
 * animation of specific bones
 * fast and compact protobuf based file format
 * SFML.Net and XNA libraries
+
+![Screenshot](https://github.com/krzat/BoneAnimation/blob/master/photo1.png?raw=true)
+
+![Screenshot](https://github.com/krzat/BoneAnimation/blob/master/photo2.png?raw=true)
 
 Editor usage:
 * Load texture with File->Load texture
