@@ -14,3 +14,12 @@ Features:
 * animation of specific bones
 * fast and compact protobuf based file format
 * SFML.Net and XNA libraries
+
+Editor usage:
+* Load texture with File->Load texture
+* Create new bones with Ctrl + LMB(left mouse button)
+* Change bone length with Shift + hold LMB
+* Click RMB(right mouse button) on bone for context menu
+* Zoom view with mouse wheel
+* Pan view with MMB (middle mouse button)
+* Press Delete to remove bone or skin
