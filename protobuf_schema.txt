@@ -1,0 +1,59 @@
+
+message Animation {
+   repeated int32 boneMap = 1;
+   repeated KeyFrame frames = 2;
+   optional string Name = 3;
+   optional float Fps = 4 [default = 0];
+   optional int32 Priority = 5 [default = 0];
+   optional bool Looped = 6 [default = false];
+}
+message Bone {
+   optional int32 ParentId = 1 [default = 0];
+   optional float Length = 2 [default = 0];
+   optional float Rotation = 3 [default = 0];
+}
+message Color {
+   optional uint32 R = 1;
+   optional uint32 G = 2;
+   optional uint32 B = 3;
+   optional uint32 A = 4;
+}
+message IntRect {
+   optional int32 Left = 1;
+   optional int32 Top = 2;
+   optional int32 Width = 3;
+   optional int32 Height = 4;
+}
+message KeyFrame {
+   repeated float Rotations = 1;
+}
+message KeyValuePair_String_Animation {
+   optional string Key = 1;
+   optional Animation Value = 2;
+}
+message KeyValuePair_String_Skin {
+   optional string Key = 1;
+   optional Skin Value = 2;
+}
+message Skeleton {
+   repeated Bone Bones = 1;
+   repeated string SpriteNames = 2;
+}
+message SkeletonAsset {
+   repeated KeyValuePair_String_Skin sprites = 1;
+   optional Skeleton Skeleton = 2;
+   repeated KeyValuePair_String_Animation animations = 3;
+}
+message Skin {
+   optional string Name = 1;
+   optional IntRect Source = 2;
+   optional Vector2f Origin = 3;
+   optional Vector2f Scale = 4;
+   optional Color Color = 5;
+   optional float Angle = 6 [default = 0];
+   optional int32 BoneId = 7 [default = 0];
+}
+message Vector2f {
+   optional float X = 1;
+   optional float Y = 2;
+}
