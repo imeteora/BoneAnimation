@@ -17,6 +17,8 @@ Features:
 
 ![Screenshot](https://github.com/krzat/BoneAnimation/blob/master/photo2.png?raw=true)
 
+Skeleton in action: http://www.youtube.com/watch?v=ToxC2ppu4UM
+
 Editor usage:
 * Load texture with File->Load texture
 * Create new bones with Ctrl + LMB(left mouse button)
