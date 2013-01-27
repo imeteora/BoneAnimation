@@ -107,7 +107,7 @@
       <Project>{843278F2-C2C7-4461-9BE8-C4C946540CA3}</Project>
       <Name>Bones.XNA</Name>
     </ProjectReference>
-    <ProjectReference Include="..\BonesEditor2Content\Bones.Editor.Content.contentproj">
+    <ProjectReference Include="..\BonesEditorContent\Bones.Editor.Content.contentproj">
       <Name>Bones.Editor.Content %28Content%29</Name>
       <XnaReferenceType>Content</XnaReferenceType>
       <Project>{3E970832-FE5E-4330-A301-D6217E021A0E}</Project>
