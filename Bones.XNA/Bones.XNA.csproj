@@ -52,8 +52,9 @@
       <HintPath>..\xna\Microsoft.Xna.Framework.Graphics.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib" />
-    <Reference Include="protobuf-net">
-      <HintPath>..\..\protobuf\Full\net30\protobuf-net.dll</HintPath>
+    <Reference Include="protobuf-net, Version=2.0.0.602, Culture=neutral, PublicKeyToken=257b51d87d2e4d67, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\protobuf-net.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />

@@ -91,8 +91,8 @@ namespace BoneEditor
 
             font = content.Load<SpriteFont>("hudFont");
             timer = new System.Threading.Timer(OnTick, null, 0, 20);
-            //circle = content.Load<Texture2D>("circle");
-            circle = Extensions.FromFile(GraphicsDevice, "circle.png", true);
+            circle = content.Load<Texture2D>("circle");
+            //circle = Extensions.FromFile(GraphicsDevice, "circle.png", true);
             if (Initialized != null) Initialized(this, new EventArgs());
         }
         public void PickTexture()
