@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using ProtoBuf;
 using SFML.Window;
-
+using SFML.Utils;
 namespace BoneLibrary
 {
     //each keyframe is just list of rotations, used by Animation class

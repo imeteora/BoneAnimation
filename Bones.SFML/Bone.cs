@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using ProtoBuf;
 using SFML.Window;
-
+using SFML.Utils;
 namespace BoneLibrary
 {
     /// <summary>
@@ -63,7 +63,7 @@ namespace BoneLibrary
             if (1 > 0)
                 Rotation = position.GetAngle() - AbsoluteRotation + Rotation;
             AbsoluteRotation = rot + Rotation;
-            if (!lockLength) Length = (position).Length;
+            if (!lockLength) Length = (position).Length();
         }
     }
 }

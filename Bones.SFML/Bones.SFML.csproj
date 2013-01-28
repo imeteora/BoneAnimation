@@ -58,6 +58,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Libs\protobuf-net.dll</HintPath>
     </Reference>
+    <Reference Include="SFML.Utils">
+      <HintPath>..\Libs\SFML.Utils.dll</HintPath>
+    </Reference>
     <Reference Include="sfmlnet-graphics-2, Version=0.0.0.0, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Libs\sfmlnet-graphics-2.dll</HintPath>

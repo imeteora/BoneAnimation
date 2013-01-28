@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Linq;
 using SFML.Graphics;
 using SFML.Window;
-
+using SFML.Utils;
 namespace BoneLibrary
 {
     /// <summary>
@@ -134,7 +134,7 @@ namespace BoneLibrary
         {
             foreach (Bone b in Bones.Reverse<Bone>())
             {
-                if ((b.EndPosition - Vector2f).Length < p)
+                if ((b.EndPosition - Vector2f).Length() < p)
                     return b;
             }
             return null;

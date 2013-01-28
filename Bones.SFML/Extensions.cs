@@ -1,6 +1,7 @@
 ﻿using System;
 using SFML.Graphics;
 using SFML.Window;
+using SFML.Utils;
 
 namespace BoneLibrary
 {
@@ -50,7 +51,7 @@ namespace BoneLibrary
 
         public static Vector2f Normalize(this Vector2f v)
         {
-            float len = v.Length;
+            float len = v.Length();
             if (len == 0) return new Vector2f(1, 0);
             return v/len;
         }

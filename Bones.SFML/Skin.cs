@@ -2,6 +2,7 @@
 using ProtoBuf;
 using SFML.Graphics;
 using SFML.Window;
+using SFML.Utils;
 
 namespace BoneLibrary
 {
